@@ -1,0 +1,96 @@
+.main{
+	background-image: url("sfnd.jpg");
+	font-family: "Courier New";
+	text-align: center;
+	background-position: center;
+	color: black;
+}
+
+.shop{
+  background-image: url("Immagine.png");
+	font-family: "Courier New";
+	text-align: center;
+	background-position: center;
+	color: black;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.item{
+	background-color: white;
+	font-family: "Courier New";
+	text-align: center;
+	color: black;
+}
+
+.gallery{
+	background-image: url("galleryback.jpg");
+	font-family: "Courier New";
+	text-align: center;
+  color: black;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.contacts{
+  background-image: url("Immagine1.jpg");
+	font-family: "Courier New";
+	text-align: center;
+	background-position: center;
+	color: black;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.zoomitem {
+  padding: 0px;
+  background-color: transparent;
+  transition: transform .2s;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.zoomitem:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.shopresize {
+  width: 90px;
+  height: 90px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.small {
+  zoom: 0.3;
+  -moz-transform: scale(0.3);
+}
+
+.zoomgallery {
+  padding: 0px;
+  background-color: transparent;
+  transition: transform .2s;
+  margin: 0 auto;
+	-webkit-filter: brightness(20%);
+	filter: brightness(20%);
+}
+
+.zoomgallery:hover {
+	-moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+	-webkit-filter: brightness(100%);
+}
